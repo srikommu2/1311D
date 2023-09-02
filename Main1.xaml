@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="8353,14855" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ucad="clr-namespace:UiPath.Core.Activities.DateModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="8353,14965" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ucad="clr-namespace:UiPath.Core.Activities.DateModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="84">
       <x:String>System.Activities</x:String>
@@ -89,7 +89,6 @@
       <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -97,7 +96,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="8363,14790" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="8363,14860" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="number" />
       <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -137,13 +136,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="8301,14679" sap2010:WorkflowViewState.IdRef="Sequence_9">
+    <Sequence sap:VirtualizedContainerService.HintSize="8301,14749" sap2010:WorkflowViewState.IdRef="Sequence_9">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="8239,82" sap2010:WorkflowViewState.IdRef="Assign_61">
+      <Assign sap:VirtualizedContainerService.HintSize="8239,81" sap2010:WorkflowViewState.IdRef="Assign_61">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Double">[mm]</OutArgument>
         </Assign.To>
@@ -152,9 +151,9 @@
         </Assign.Value>
       </Assign>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="8239,92" sap2010:WorkflowViewState.IdRef="LogMessage_188" Level="Info" Message="[&quot;TargetedBalance &quot;+cb.ToString]" />
-      <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="8239,14314" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+      <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="8239,14385" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
         <ui:InterruptibleWhile.Body>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="8203,14108" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="8203,14219" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="textd" />
               <Variable x:TypeArguments="x:String" Name="aaa" />
@@ -207,9 +206,9 @@
               </Assign>
               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_244" Level="Warn" Message="[cb]" />
             </Sequence>
-            <If Condition="[cb &gt; mm]" sap:VirtualizedContainerService.HintSize="8141,13353" sap2010:WorkflowViewState.IdRef="If_69">
+            <If Condition="[cb &gt; mm]" sap:VirtualizedContainerService.HintSize="8141,13464" sap2010:WorkflowViewState.IdRef="If_69">
               <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="1912,13195" sap2010:WorkflowViewState.IdRef="Sequence_160">
+                <Sequence sap:VirtualizedContainerService.HintSize="1912,13306" sap2010:WorkflowViewState.IdRef="Sequence_160">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -773,7 +772,7 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  dateOfBirth'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_45" Text="D India">
+                            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  dateOfBirth'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_45" Text="DD India">
                               <ui:TypeInto.Target>
                                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3af58b48-e6c4-466e-a0b3-9f818be98719" InformativeScreenshot="de99198938975c7abcd2b587c2188dcc" Selector="&lt;html app='chrome.exe' title='script.google.com/macros/s/AKfycbwMdCQHe4aMoOnkiLD-_VNHpe9DnSk0dW84mT2Sq3Re-h5JWl3sIGvHwqDynLGSw6DouA/exec' /&gt;&lt;webctrl id='sandboxFrame' tag='IFRAME' /&gt;&lt;webctrl id='userHtmlFrame' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' /&gt;">
                                   <ui:Target.TimeoutMS>
@@ -1076,7 +1075,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  dateOfBirth'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_54" Text="Krishna - Victor">
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  dateOfBirth'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_54" Text="Krishna - DD">
                       <ui:TypeInto.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3af58b48-e6c4-466e-a0b3-9f818be98719" InformativeScreenshot="de99198938975c7abcd2b587c2188dcc" Selector="&lt;html app='chrome.exe' title='script.google.com/macros/s/AKfycbwMdCQHe4aMoOnkiLD-_VNHpe9DnSk0dW84mT2Sq3Re-h5JWl3sIGvHwqDynLGSw6DouA/exec' /&gt;&lt;webctrl id='sandboxFrame' tag='IFRAME' /&gt;&lt;webctrl id='userHtmlFrame' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' /&gt;">
                           <ui:Target.TimeoutMS>
@@ -1159,40 +1158,47 @@
                       </ui:Click.Target>
                     </ui:Click>
                   </Sequence>
-                  <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1850,1559" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_18">
+                  <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1850,1670" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_18">
                     <ui:InterruptibleWhile.Body>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1115,1393" sap2010:WorkflowViewState.IdRef="Sequence_335">
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1115,1504" sap2010:WorkflowViewState.IdRef="Sequence_335">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1053,25" sap2010:WorkflowViewState.IdRef="Delay_137" />
-                        <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="1053,107" sap2010:WorkflowViewState.IdRef="GetValue_188">
-                          <ui:GetValue.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
-                              <ui:Target.TimeoutMS>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:Target.TimeoutMS>
-                              <ui:Target.WaitForReady>
-                                <InArgument x:TypeArguments="ui:WaitForReady" />
-                              </ui:Target.WaitForReady>
-                            </ui:Target>
-                          </ui:GetValue.Target>
-                          <ui:GetValue.Value>
-                            <OutArgument x:TypeArguments="x:String">[wbal]</OutArgument>
-                          </ui:GetValue.Value>
-                        </ui:GetValue>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1053,92" sap2010:WorkflowViewState.IdRef="LogMessage_245" Level="Info" Message="[wbal]" />
-                        <Assign sap:VirtualizedContainerService.HintSize="1053,82" sap2010:WorkflowViewState.IdRef="Assign_112">
-                          <Assign.To>
-                            <OutArgument x:TypeArguments="x:Double">[wb]</OutArgument>
-                          </Assign.To>
-                          <Assign.Value>
-                            <InArgument x:TypeArguments="x:Double">[Convert.ToDouble(wbal.Replace("₹",""))]</InArgument>
-                          </Assign.Value>
-                        </Assign>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1053,92" sap2010:WorkflowViewState.IdRef="LogMessage_246" Level="Warn" Message="[wb]" />
+                        <Sequence sap:VirtualizedContainerService.HintSize="1053,669" sap2010:WorkflowViewState.IdRef="Sequence_353">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_137" />
+                          <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_188">
+                            <ui:GetValue.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:GetValue.Target>
+                            <ui:GetValue.Value>
+                              <OutArgument x:TypeArguments="x:String">[wbal]</OutArgument>
+                            </ui:GetValue.Value>
+                          </ui:GetValue>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_245" Level="Info" Message="[wbal]" />
+                          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_112">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Double">[wb]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Double">[Convert.ToDouble(wbal.Replace("₹",""))]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_246" Level="Warn" Message="[wb]" />
+                        </Sequence>
                         <If Condition="[wb &gt; 0]" sap:VirtualizedContainerService.HintSize="1053,684" sap2010:WorkflowViewState.IdRef="If_127">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="496,193" sap2010:WorkflowViewState.IdRef="Sequence_332">
@@ -1278,13 +1284,13 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence sap:VirtualizedContainerService.HintSize="6184,7483" sap2010:WorkflowViewState.IdRef="Sequence_161">
+                <Sequence sap:VirtualizedContainerService.HintSize="6184,7548" sap2010:WorkflowViewState.IdRef="Sequence_161">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence sap:VirtualizedContainerService.HintSize="6122,7372" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <Sequence sap:VirtualizedContainerService.HintSize="6122,7437" sap2010:WorkflowViewState.IdRef="Sequence_8">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="beton" />
                       <Variable x:TypeArguments="x:String" Name="main" />
@@ -1295,7 +1301,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="6060,7261" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="6060,7326" sap2010:WorkflowViewState.IdRef="Sequence_59">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="a" />
                         <Variable x:TypeArguments="x:String" Name="d" />
@@ -1337,7 +1343,7 @@
                           <OutArgument x:TypeArguments="x:String">[sts]</OutArgument>
                         </ui:GetValue.Value>
                       </ui:GetValue>
-                      <If Condition="[a=iii]" sap:VirtualizedContainerService.HintSize="5998,6592" sap2010:WorkflowViewState.IdRef="If_29">
+                      <If Condition="[a=iii]" sap:VirtualizedContainerService.HintSize="5998,6657" sap2010:WorkflowViewState.IdRef="If_29">
                         <If.Then>
                           <Sequence sap:VirtualizedContainerService.HintSize="496,325" sap2010:WorkflowViewState.IdRef="Sequence_57">
                             <sap:WorkflowViewStateService.ViewState>
@@ -1357,7 +1363,7 @@
                           </Sequence>
                         </If.Then>
                         <If.Else>
-                          <Sequence sap:VirtualizedContainerService.HintSize="5457,6434" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                          <Sequence sap:VirtualizedContainerService.HintSize="5457,6499" sap2010:WorkflowViewState.IdRef="Sequence_61">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1389,9 +1395,9 @@
                             </Assign>
                             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="5395,92" sap2010:WorkflowViewState.IdRef="LogMessage_187" Level="Warn" Message="[wb]" />
                             <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="5395,25" sap2010:WorkflowViewState.IdRef="Delay_71" />
-                            <If Condition="[wb &gt; bt]" sap:VirtualizedContainerService.HintSize="5395,4293" sap2010:WorkflowViewState.IdRef="If_32">
+                            <If Condition="[wb &gt; bt]" sap:VirtualizedContainerService.HintSize="5395,5134" sap2010:WorkflowViewState.IdRef="If_32">
                               <If.Then>
-                                <Sequence sap:VirtualizedContainerService.HintSize="4013,4135" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                                <Sequence sap:VirtualizedContainerService.HintSize="4013,4976" sap2010:WorkflowViewState.IdRef="Sequence_65">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1887,10 +1893,44 @@
                                       </ui:TypeInto.Target>
                                     </ui:TypeInto>
                                   </Sequence>
+                                  <Sequence sap:VirtualizedContainerService.HintSize="3951,801" sap2010:WorkflowViewState.IdRef="Sequence_354">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_155" />
+                                    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_191">
+                                      <ui:GetValue.Target>
+                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="17e76699f7c0cdd6cf7f2911f56ff7c3" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                          <ui:Target.TimeoutMS>
+                                            <InArgument x:TypeArguments="x:Int32" />
+                                          </ui:Target.TimeoutMS>
+                                          <ui:Target.WaitForReady>
+                                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                                          </ui:Target.WaitForReady>
+                                        </ui:Target>
+                                      </ui:GetValue.Target>
+                                      <ui:GetValue.Value>
+                                        <OutArgument x:TypeArguments="x:String">[wbal]</OutArgument>
+                                      </ui:GetValue.Value>
+                                    </ui:GetValue>
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_258" Level="Info" Message="[wbal]" />
+                                    <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_120">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:Double">[bt]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:Double">[Convert.ToDouble(wbal.Replace("₹",""))]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_259" Level="Warn" Message="[bt]" />
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_260" Level="Warn" Message="[wb]" />
+                                  </Sequence>
                                 </Sequence>
                               </If.Then>
                               <If.Else>
-                                <Sequence sap:VirtualizedContainerService.HintSize="1337,2484" sap2010:WorkflowViewState.IdRef="Sequence_66">
+                                <Sequence sap:VirtualizedContainerService.HintSize="1337,3365" sap2010:WorkflowViewState.IdRef="Sequence_66">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="clks" />
                                   </Sequence.Variables>
@@ -1914,19 +1954,19 @@
                                       <OutArgument x:TypeArguments="x:String">[sts]</OutArgument>
                                     </ui:GetValue.Value>
                                   </ui:GetValue>
-                                  <Sequence sap:VirtualizedContainerService.HintSize="1275,2226" sap2010:WorkflowViewState.IdRef="Sequence_172">
+                                  <Sequence sap:VirtualizedContainerService.HintSize="1275,3107" sap2010:WorkflowViewState.IdRef="Sequence_172">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="1213,2115" sap2010:WorkflowViewState.IdRef="Sequence_171">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="1213,2996" sap2010:WorkflowViewState.IdRef="Sequence_171">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="1151,2004" sap2010:WorkflowViewState.IdRef="Sequence_327">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="1151,2885" sap2010:WorkflowViewState.IdRef="Sequence_327">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1955,7 +1995,7 @@
                                           </ui:Click.Target>
                                         </ui:Click>
                                         <Delay Duration="00:02:01" sap:VirtualizedContainerService.HintSize="1089,25" sap2010:WorkflowViewState.IdRef="Delay_152" />
-                                        <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1089,1559" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
+                                        <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1089,1599" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
                                           <ui:InterruptibleWhile.Body>
                                             <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1053,1393" sap2010:WorkflowViewState.IdRef="Sequence_317">
                                               <sap:WorkflowViewStateService.ViewState>
@@ -2044,6 +2084,40 @@
                                             </Sequence>
                                           </ui:InterruptibleWhile.Body>
                                         </ui:InterruptibleWhile>
+                                        <Sequence sap:VirtualizedContainerService.HintSize="1089,801" sap2010:WorkflowViewState.IdRef="Sequence_355">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_156" />
+                                          <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_192">
+                                            <ui:GetValue.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="17e76699f7c0cdd6cf7f2911f56ff7c3" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                                <ui:Target.TimeoutMS>
+                                                  <InArgument x:TypeArguments="x:Int32" />
+                                                </ui:Target.TimeoutMS>
+                                                <ui:Target.WaitForReady>
+                                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                </ui:Target.WaitForReady>
+                                              </ui:Target>
+                                            </ui:GetValue.Target>
+                                            <ui:GetValue.Value>
+                                              <OutArgument x:TypeArguments="x:String">[wbal]</OutArgument>
+                                            </ui:GetValue.Value>
+                                          </ui:GetValue>
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_261" Level="Info" Message="[wbal]" />
+                                          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_121">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:Double">[bt]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:Double">[Convert.ToDouble(wbal.Replace("₹",""))]</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_262" Level="Warn" Message="[bt]" />
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_263" Level="Warn" Message="[wb]" />
+                                        </Sequence>
                                         <Assign sap:VirtualizedContainerService.HintSize="1089,82" sap2010:WorkflowViewState.IdRef="Assign_104">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:Int32">[plc]</OutArgument>
@@ -2100,39 +2174,6 @@
                               </Assign.Value>
                             </Assign>
                             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="5395,92" sap2010:WorkflowViewState.IdRef="LogMessage_77" Level="Info" Message="[&quot;C________________&quot;+iii]" />
-                            <Sequence sap:VirtualizedContainerService.HintSize="5395,736" sap2010:WorkflowViewState.IdRef="Sequence_352">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_190">
-                                <ui:GetValue.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="17e76699f7c0cdd6cf7f2911f56ff7c3" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
-                                    <ui:Target.TimeoutMS>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:Target.TimeoutMS>
-                                    <ui:Target.WaitForReady>
-                                      <InArgument x:TypeArguments="ui:WaitForReady" />
-                                    </ui:Target.WaitForReady>
-                                  </ui:Target>
-                                </ui:GetValue.Target>
-                                <ui:GetValue.Value>
-                                  <OutArgument x:TypeArguments="x:String">[wbal]</OutArgument>
-                                </ui:GetValue.Value>
-                              </ui:GetValue>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_255" Level="Info" Message="[wbal]" />
-                              <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_119">
-                                <Assign.To>
-                                  <OutArgument x:TypeArguments="x:Double">[bt]</OutArgument>
-                                </Assign.To>
-                                <Assign.Value>
-                                  <InArgument x:TypeArguments="x:Double">[Convert.ToDouble(wbal.Replace("₹",""))]</InArgument>
-                                </Assign.Value>
-                              </Assign>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_256" Level="Warn" Message="[bt]" />
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_257" Level="Warn" Message="[wb]" />
-                            </Sequence>
                           </Sequence>
                         </If.Else>
                       </If>
