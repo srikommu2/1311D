@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="9072,15900" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ucad="clr-namespace:UiPath.Core.Activities.DateModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="9072,15938" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ucad="clr-namespace:UiPath.Core.Activities.DateModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="84">
       <x:String>System.Activities</x:String>
@@ -97,7 +97,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="9082,15795" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="9082,15793" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="number" />
       <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -142,13 +142,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="9020,15684" sap2010:WorkflowViewState.IdRef="Sequence_9">
+    <Sequence sap:VirtualizedContainerService.HintSize="9020,15682" sap2010:WorkflowViewState.IdRef="Sequence_9">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="8958,81" sap2010:WorkflowViewState.IdRef="Assign_61">
+      <Assign sap:VirtualizedContainerService.HintSize="8958,82" sap2010:WorkflowViewState.IdRef="Assign_61">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Double">[mm]</OutArgument>
         </Assign.To>
@@ -157,9 +157,9 @@
         </Assign.Value>
       </Assign>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="8958,92" sap2010:WorkflowViewState.IdRef="LogMessage_188" Level="Info" Message="[&quot;TargetedBalance &quot;+cb.ToString]" />
-      <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="8958,15320" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+      <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="8958,15317" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
         <ui:InterruptibleWhile.Body>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="8922,15154" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="8922,15151" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="textd" />
               <Variable x:TypeArguments="x:String" Name="aaa" />
@@ -188,7 +188,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_187">
                 <ui:GetValue.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="9454f7c8e40f44d1d714f84d00dc976b" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' parentid='root' tag='SPAN' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="9454f7c8e40f44d1d714f84d00dc976b" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' parentid='root' tag='SPAN' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -212,9 +212,9 @@
               </Assign>
               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_244" Level="Warn" Message="[cb]" />
             </Sequence>
-            <If Condition="[cb &gt; mm]" sap:VirtualizedContainerService.HintSize="8860,14399" sap2010:WorkflowViewState.IdRef="If_69">
+            <If Condition="[cb &gt; mm]" sap:VirtualizedContainerService.HintSize="8860,14396" sap2010:WorkflowViewState.IdRef="If_69">
               <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="2373,14241" sap2010:WorkflowViewState.IdRef="Sequence_160">
+                <Sequence sap:VirtualizedContainerService.HintSize="2373,14238" sap2010:WorkflowViewState.IdRef="Sequence_160">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -280,7 +280,7 @@
                       </ui:CursorPosition>
                     </ui:Click.CursorPosition>
                     <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="89321593-a3cc-4391-974c-8d448b1cf82a" InformativeScreenshot="63874a0ca6e9c2122c1efbe4f42cead1" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' idx='3' parentid='root' tag='SPAN' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="89321593-a3cc-4391-974c-8d448b1cf82a" InformativeScreenshot="63874a0ca6e9c2122c1efbe4f42cead1" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' idx='3' parentid='root' tag='SPAN' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -303,7 +303,7 @@
                     </ui:TypeInto.Target>
                   </ui:TypeInto>
                   <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="2311,25" sap2010:WorkflowViewState.IdRef="Delay_49" />
-                  <Assign sap:VirtualizedContainerService.HintSize="2311,82" sap2010:WorkflowViewState.IdRef="Assign_69">
+                  <Assign sap:VirtualizedContainerService.HintSize="2311,81" sap2010:WorkflowViewState.IdRef="Assign_69">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[zzz]</OutArgument>
                     </Assign.To>
@@ -311,9 +311,9 @@
                       <InArgument x:TypeArguments="x:String">no</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <If Condition="[cb &gt; 50000]" sap:VirtualizedContainerService.HintSize="2311,6409" sap2010:WorkflowViewState.IdRef="If_92">
+                  <If Condition="[cb &gt; 50000]" sap:VirtualizedContainerService.HintSize="2311,6407" sap2010:WorkflowViewState.IdRef="If_92">
                     <If.Then>
-                      <Sequence sap:VirtualizedContainerService.HintSize="1195,6251" sap2010:WorkflowViewState.IdRef="Sequence_339">
+                      <Sequence sap:VirtualizedContainerService.HintSize="1195,6249" sap2010:WorkflowViewState.IdRef="Sequence_339">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="s:DateTime" Name="nextDay" />
                         </Sequence.Variables>
@@ -429,9 +429,9 @@
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
                         <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="1133,25" sap2010:WorkflowViewState.IdRef="Delay_145" />
-                        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  dateOfBirth'" EmptyField="True" sap:VirtualizedContainerService.HintSize="1133,135" sap2010:WorkflowViewState.IdRef="TypeInto_49" Text="Ahana2022">
+                        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  dateOfBirth'" EmptyField="True" sap:VirtualizedContainerService.HintSize="1133,135" sap2010:WorkflowViewState.IdRef="TypeInto_49" Text="Ahana2323">
                           <ui:TypeInto.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3af58b48-e6c4-466e-a0b3-9f818be98719" InformativeScreenshot="682c390ce14b8f665f40ab825ce884c6" Selector="&lt;html app='chrome.exe' title='Local Bank Transfer - Withdrawal | Cashier' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3af58b48-e6c4-466e-a0b3-9f818be98719" InformativeScreenshot="63e7664c479999f9e59f1dd2f1c3f83b" Selector="&lt;html app='chrome.exe' htmlwindowname='windowName' title='Local Bank Transfer - Withdrawal | Cashier' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -454,7 +454,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7252155f-3780-4747-b7c7-8dc03f65ff44" InformativeScreenshot="6803ddc723784ba58a1b1474443e3737" Selector="&lt;html app='chrome.exe' title='Local Bank Transfer - Withdrawal | Cashier' /&gt;&lt;webctrl tag='INPUT' type='submit' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7252155f-3780-4747-b7c7-8dc03f65ff44" InformativeScreenshot="6803ddc723784ba58a1b1474443e3737" Selector="&lt;html app='chrome.exe' htmlwindowname='windowName' title='Local Bank Transfer - Withdrawal | Cashier' /&gt;&lt;webctrl tag='INPUT' type='submit' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -647,17 +647,17 @@
                           </ui:CommentOut.Body>
                         </ui:CommentOut>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1133,92" sap2010:WorkflowViewState.IdRef="LogMessage_248" Level="Info" Message="[nextDay]" />
-                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1133,1587" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1133,1586" sap2010:WorkflowViewState.IdRef="CommentOut_5">
                           <ui:CommentOut.Body>
-                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="1097,1508" sap2010:WorkflowViewState.IdRef="Sequence_348">
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="1097,1507" sap2010:WorkflowViewState.IdRef="Sequence_348">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1035,1397" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_19">
+                              <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1035,1396" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_19">
                                 <ui:InterruptibleWhile.Body>
-                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="999,1231" sap2010:WorkflowViewState.IdRef="Sequence_340">
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="999,1230" sap2010:WorkflowViewState.IdRef="Sequence_340">
                                     <Sequence.Variables>
                                       <Variable x:TypeArguments="s:DateTime" Name="currentDay" />
                                     </Sequence.Variables>
@@ -681,21 +681,21 @@
                                     </ui:ModifyDate>
                                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="937,92" sap2010:WorkflowViewState.IdRef="LogMessage_249" Level="Info" Message="[currentDay]" />
                                     <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="937,25" sap2010:WorkflowViewState.IdRef="Delay_149" />
-                                    <If Condition="[currentDay = nextDay]" sap:VirtualizedContainerService.HintSize="937,659" sap2010:WorkflowViewState.IdRef="If_128">
+                                    <If Condition="[currentDay = nextDay]" sap:VirtualizedContainerService.HintSize="937,658" sap2010:WorkflowViewState.IdRef="If_128">
                                       <If.Then>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="558,501" sap2010:WorkflowViewState.IdRef="Sequence_347">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="558,500" sap2010:WorkflowViewState.IdRef="Sequence_347">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Sequence sap:VirtualizedContainerService.HintSize="496,390" sap2010:WorkflowViewState.IdRef="Sequence_346">
+                                          <Sequence sap:VirtualizedContainerService.HintSize="496,389" sap2010:WorkflowViewState.IdRef="Sequence_346">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_116">
+                                            <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_116">
                                               <Assign.To>
                                                 <OutArgument x:TypeArguments="x:Int32">[plc]</OutArgument>
                                               </Assign.To>
@@ -718,7 +718,7 @@
                             </Sequence>
                           </ui:CommentOut.Body>
                         </ui:CommentOut>
-                        <Assign sap:VirtualizedContainerService.HintSize="1133,82" sap2010:WorkflowViewState.IdRef="Assign_117">
+                        <Assign sap:VirtualizedContainerService.HintSize="1133,81" sap2010:WorkflowViewState.IdRef="Assign_117">
                           <Assign.To>
                             <OutArgument x:TypeArguments="x:Int32">[plc]</OutArgument>
                           </Assign.To>
@@ -752,19 +752,19 @@
                       </Sequence>
                     </If.Then>
                     <If.Else>
-                      <Sequence sap:VirtualizedContainerService.HintSize="610,1757" sap2010:WorkflowViewState.IdRef="Sequence_219">
+                      <Sequence sap:VirtualizedContainerService.HintSize="610,1796" sap2010:WorkflowViewState.IdRef="Sequence_219">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence sap:VirtualizedContainerService.HintSize="548,1646" sap2010:WorkflowViewState.IdRef="Sequence_338">
+                        <Sequence sap:VirtualizedContainerService.HintSize="548,1685" sap2010:WorkflowViewState.IdRef="Sequence_338">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Assign sap:VirtualizedContainerService.HintSize="486,82" sap2010:WorkflowViewState.IdRef="Assign_114">
+                          <Assign sap:VirtualizedContainerService.HintSize="486,81" sap2010:WorkflowViewState.IdRef="Assign_114">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:Double">[mm]</OutArgument>
                             </Assign.To>
@@ -881,7 +881,7 @@
                               </ui:Target>
                             </ui:Click.Target>
                           </ui:Click>
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,336" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,376" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                             <ui:CommentOut.Body>
                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,257" sap2010:WorkflowViewState.IdRef="Sequence_337">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -988,7 +988,7 @@
                         </ui:CursorPosition>
                       </ui:Click.CursorPosition>
                       <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="212d2b7c-65a4-4627-b5e8-e677c7cbfa4c" InformativeScreenshot="2526055d9762ca3a6dfb4c6458c11d03" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl id='inGameLobby' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="212d2b7c-65a4-4627-b5e8-e677c7cbfa4c" InformativeScreenshot="2526055d9762ca3a6dfb4c6458c11d03" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl id='inGameLobby' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -1001,7 +1001,7 @@
                     <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="Delay_86" />
                     <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  dateOfBirth'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_44" Text="Dragon Tiger [k(enter)]">
                       <ui:TypeInto.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3af58b48-e6c4-466e-a0b3-9f818be98719" InformativeScreenshot="d84bf4b3d77cca783d9f5c3ac1b8c7fc" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl id='inGameLobby' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3af58b48-e6c4-466e-a0b3-9f818be98719" InformativeScreenshot="d84bf4b3d77cca783d9f5c3ac1b8c7fc" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl id='inGameLobby' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -1024,7 +1024,7 @@
                         </ui:CursorPosition>
                       </ui:Click.CursorPosition>
                       <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="212d2b7c-65a4-4627-b5e8-e677c7cbfa4c" InformativeScreenshot="0531578cf61a3deab619ee942dad715f" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl id='inGameLobby' tag='IFRAME' /&gt;&lt;webctrl tag='CANVAS' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="212d2b7c-65a4-4627-b5e8-e677c7cbfa4c" InformativeScreenshot="0531578cf61a3deab619ee942dad715f" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl id='inGameLobby' tag='IFRAME' /&gt;&lt;webctrl tag='CANVAS' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -1047,7 +1047,7 @@
                         </ui:CursorPosition>
                       </ui:Click.CursorPosition>
                       <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="212d2b7c-65a4-4627-b5e8-e677c7cbfa4c" InformativeScreenshot="afc0d19b505559cee7f8a01d78d12dd4" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' parentid='root' tag='SPAN' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="212d2b7c-65a4-4627-b5e8-e677c7cbfa4c" InformativeScreenshot="afc0d19b505559cee7f8a01d78d12dd4" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' parentid='root' tag='SPAN' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -1181,7 +1181,7 @@
                           <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_137" />
                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_188">
                             <ui:GetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1293,7 +1293,7 @@
                                           </ui:CursorPosition>
                                         </ui:Click.CursorPosition>
                                         <ui:Click.Target>
-                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="f036bdcb6177cd3437dab423c1081a8e" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='4' parentid='root' tag='path' /&gt;">
+                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="f036bdcb6177cd3437dab423c1081a8e" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='4' parentid='root' tag='path' /&gt;">
                                             <ui:Target.TimeoutMS>
                                               <InArgument x:TypeArguments="x:Int32" />
                                             </ui:Target.TimeoutMS>
@@ -1324,7 +1324,7 @@
                                           </ui:CursorPosition>
                                         </ui:Click.CursorPosition>
                                         <ui:Click.Target>
-                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="29ac7dfc11c9733501c2887252ebc412" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='2' parentid='root' tag='path' /&gt;">
+                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="29ac7dfc11c9733501c2887252ebc412" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='2' parentid='root' tag='path' /&gt;">
                                             <ui:Target.TimeoutMS>
                                               <InArgument x:TypeArguments="x:Int32" />
                                             </ui:Target.TimeoutMS>
@@ -1362,7 +1362,7 @@
                     <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_157" />
                     <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_194">
                       <ui:GetValue.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="aa95e9f4e9326a11bb728722f9740781" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' idx='2' parentid='root' tag='SPAN' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="aa95e9f4e9326a11bb728722f9740781" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' idx='2' parentid='root' tag='SPAN' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -1390,13 +1390,13 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence sap:VirtualizedContainerService.HintSize="6442,8530" sap2010:WorkflowViewState.IdRef="Sequence_161">
+                <Sequence sap:VirtualizedContainerService.HintSize="6442,8489" sap2010:WorkflowViewState.IdRef="Sequence_161">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence sap:VirtualizedContainerService.HintSize="6380,8419" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <Sequence sap:VirtualizedContainerService.HintSize="6380,8378" sap2010:WorkflowViewState.IdRef="Sequence_8">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="beton" />
                       <Variable x:TypeArguments="x:String" Name="main" />
@@ -1407,7 +1407,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="6318,8308" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="6318,8267" sap2010:WorkflowViewState.IdRef="Sequence_59">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="a" />
                         <Variable x:TypeArguments="x:String" Name="d" />
@@ -1419,7 +1419,7 @@
                       </sap:WorkflowViewStateService.ViewState>
                       <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="6256,107" sap2010:WorkflowViewState.IdRef="GetValue_43">
                         <ui:GetValue.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="156fb99a-9e8b-461e-a98e-8e294ae37a55" InformativeScreenshot="68d75151825784f900117da33e2740c9" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="156fb99a-9e8b-461e-a98e-8e294ae37a55" InformativeScreenshot="68d75151825784f900117da33e2740c9" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                             <ui:Target.TimeoutMS>
                               <InArgument x:TypeArguments="x:Int32" />
                             </ui:Target.TimeoutMS>
@@ -1449,7 +1449,7 @@
                           <OutArgument x:TypeArguments="x:String">[sts]</OutArgument>
                         </ui:GetValue.Value>
                       </ui:GetValue>
-                      <If Condition="[a=iii]" sap:VirtualizedContainerService.HintSize="6256,7639" sap2010:WorkflowViewState.IdRef="If_29">
+                      <If Condition="[a=iii]" sap:VirtualizedContainerService.HintSize="6256,7598" sap2010:WorkflowViewState.IdRef="If_29">
                         <If.Then>
                           <Sequence sap:VirtualizedContainerService.HintSize="496,325" sap2010:WorkflowViewState.IdRef="Sequence_57">
                             <sap:WorkflowViewStateService.ViewState>
@@ -1469,7 +1469,7 @@
                           </Sequence>
                         </If.Then>
                         <If.Else>
-                          <Sequence sap:VirtualizedContainerService.HintSize="5715,7481" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                          <Sequence sap:VirtualizedContainerService.HintSize="5715,7440" sap2010:WorkflowViewState.IdRef="Sequence_61">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1477,7 +1477,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                             <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="5653,107" sap2010:WorkflowViewState.IdRef="GetValue_161">
                               <ui:GetValue.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' idx='2' parentid='root' tag='SPAN' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -1509,7 +1509,7 @@
                               </sap:WorkflowViewStateService.ViewState>
                               <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_193">
                                 <ui:GetValue.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="9454f7c8e40f44d1d714f84d00dc976b" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' parentid='root' tag='SPAN' /&gt;">
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="9454f7c8e40f44d1d714f84d00dc976b" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' parentid='root' tag='SPAN' /&gt;">
                                     <ui:Target.TimeoutMS>
                                       <InArgument x:TypeArguments="x:Int32" />
                                     </ui:Target.TimeoutMS>
@@ -1533,17 +1533,17 @@
                               </Assign>
                               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_265" Level="Warn" Message="[cb]" />
                             </Sequence>
-                            <If Condition="[cb &lt; mm]" sap:VirtualizedContainerService.HintSize="5653,5472" sap2010:WorkflowViewState.IdRef="If_129">
+                            <If Condition="[cb &lt; mm]" sap:VirtualizedContainerService.HintSize="5653,5432" sap2010:WorkflowViewState.IdRef="If_129">
                               <If.Then>
-                                <Sequence sap:VirtualizedContainerService.HintSize="5617,5285" sap2010:WorkflowViewState.IdRef="Sequence_357">
+                                <Sequence sap:VirtualizedContainerService.HintSize="5617,5245" sap2010:WorkflowViewState.IdRef="Sequence_357">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <If Condition="[wb &gt; bt]" sap:VirtualizedContainerService.HintSize="5555,5174" sap2010:WorkflowViewState.IdRef="If_32">
+                                  <If Condition="[wb &gt; bt]" sap:VirtualizedContainerService.HintSize="5555,5134" sap2010:WorkflowViewState.IdRef="If_32">
                                     <If.Then>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="4013,5016" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="4013,4976" sap2010:WorkflowViewState.IdRef="Sequence_65">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1565,15 +1565,15 @@
                                           </ui:GetValue.Value>
                                         </ui:GetValue>
                                         <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="3951,25" sap2010:WorkflowViewState.IdRef="Delay_88" />
-                                        <If Condition="[sts = &quot;1&quot;]" sap:VirtualizedContainerService.HintSize="3951,2721" sap2010:WorkflowViewState.IdRef="If_91">
+                                        <If Condition="[sts = &quot;1&quot;]" sap:VirtualizedContainerService.HintSize="3951,2681" sap2010:WorkflowViewState.IdRef="If_91">
                                           <If.Then>
-                                            <Sequence sap:VirtualizedContainerService.HintSize="1275,2218" sap2010:WorkflowViewState.IdRef="Sequence_210">
+                                            <Sequence sap:VirtualizedContainerService.HintSize="1275,2178" sap2010:WorkflowViewState.IdRef="Sequence_210">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="1213,2107" sap2010:WorkflowViewState.IdRef="Sequence_209">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="1213,2067" sap2010:WorkflowViewState.IdRef="Sequence_209">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1591,7 +1591,7 @@
                                                     </ui:Target>
                                                   </ui:TypeInto.Target>
                                                 </ui:TypeInto>
-                                                <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1151,1821" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
+                                                <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1151,1781" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
                                                   <ui:InterruptibleWhile.Body>
                                                     <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1115,1615" sap2010:WorkflowViewState.IdRef="Sequence_266">
                                                       <sap:WorkflowViewStateService.ViewState>
@@ -1608,7 +1608,7 @@
                                                         <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_90" />
                                                         <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_171">
                                                           <ui:GetValue.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="e79464a0946619d32da1dbfb5db91c25" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="e79464a0946619d32da1dbfb5db91c25" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1665,7 +1665,7 @@
                                                                     </ui:CursorPosition>
                                                                   </ui:Click.CursorPosition>
                                                                   <ui:Click.Target>
-                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="29ac7dfc11c9733501c2887252ebc412" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='2' parentid='root' tag='path' /&gt;">
+                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="29ac7dfc11c9733501c2887252ebc412" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='2' parentid='root' tag='path' /&gt;">
                                                                       <ui:Target.TimeoutMS>
                                                                         <InArgument x:TypeArguments="x:Int32" />
                                                                       </ui:Target.TimeoutMS>
@@ -1698,13 +1698,13 @@
                                             </Sequence>
                                           </If.Then>
                                           <If.Else>
-                                            <Sequence sap:VirtualizedContainerService.HintSize="2631,2563" sap2010:WorkflowViewState.IdRef="Sequence_217">
+                                            <Sequence sap:VirtualizedContainerService.HintSize="2631,2523" sap2010:WorkflowViewState.IdRef="Sequence_217">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <If Condition="[sts = &quot;2&quot;]" sap:VirtualizedContainerService.HintSize="2569,2452" sap2010:WorkflowViewState.IdRef="If_90">
+                                              <If Condition="[sts = &quot;2&quot;]" sap:VirtualizedContainerService.HintSize="2569,2412" sap2010:WorkflowViewState.IdRef="If_90">
                                                 <If.Then>
                                                   <Sequence sap:VirtualizedContainerService.HintSize="1213,1956" sap2010:WorkflowViewState.IdRef="Sequence_211">
                                                     <sap:WorkflowViewStateService.ViewState>
@@ -1735,7 +1735,7 @@
                                                           <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1053,25" sap2010:WorkflowViewState.IdRef="Delay_92" />
                                                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="1053,107" sap2010:WorkflowViewState.IdRef="GetValue_172">
                                                             <ui:GetValue.Target>
-                                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                                                 <ui:Target.TimeoutMS>
                                                                   <InArgument x:TypeArguments="x:Int32" />
                                                                 </ui:Target.TimeoutMS>
@@ -1791,7 +1791,7 @@
                                                                         </ui:CursorPosition>
                                                                       </ui:Click.CursorPosition>
                                                                       <ui:Click.Target>
-                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="5806b7fb0c87de90d6d095efd423e5ae" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='4' parentid='root' tag='path' /&gt;">
+                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="5806b7fb0c87de90d6d095efd423e5ae" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='4' parentid='root' tag='path' /&gt;">
                                                                           <ui:Target.TimeoutMS>
                                                                             <InArgument x:TypeArguments="x:Int32" />
                                                                           </ui:Target.TimeoutMS>
@@ -1823,15 +1823,15 @@
                                                   </Sequence>
                                                 </If.Then>
                                                 <If.Else>
-                                                  <Sequence sap:VirtualizedContainerService.HintSize="1311,2294" sap2010:WorkflowViewState.IdRef="Sequence_216">
+                                                  <Sequence sap:VirtualizedContainerService.HintSize="1311,2254" sap2010:WorkflowViewState.IdRef="Sequence_216">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <If Condition="[sts = &quot;3&quot;]" sap:VirtualizedContainerService.HintSize="1249,2183" sap2010:WorkflowViewState.IdRef="If_89">
+                                                    <If Condition="[sts = &quot;3&quot;]" sap:VirtualizedContainerService.HintSize="1249,2143" sap2010:WorkflowViewState.IdRef="If_89">
                                                       <If.Then>
-                                                        <Sequence sap:VirtualizedContainerService.HintSize="1213,1996" sap2010:WorkflowViewState.IdRef="Sequence_212">
+                                                        <Sequence sap:VirtualizedContainerService.HintSize="1213,1956" sap2010:WorkflowViewState.IdRef="Sequence_212">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1849,7 +1849,7 @@
                                                               </ui:Target>
                                                             </ui:TypeInto.Target>
                                                           </ui:TypeInto>
-                                                          <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1151,1710" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_5">
+                                                          <ui:InterruptibleWhile Condition="[plc &gt; 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="1151,1670" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_5">
                                                             <ui:InterruptibleWhile.Body>
                                                               <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1115,1504" sap2010:WorkflowViewState.IdRef="Sequence_272">
                                                                 <sap:WorkflowViewStateService.ViewState>
@@ -1860,7 +1860,7 @@
                                                                 <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1053,25" sap2010:WorkflowViewState.IdRef="Delay_94" />
                                                                 <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="1053,107" sap2010:WorkflowViewState.IdRef="GetValue_173">
                                                                   <ui:GetValue.Target>
-                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                                                       <ui:Target.TimeoutMS>
                                                                         <InArgument x:TypeArguments="x:Int32" />
                                                                       </ui:Target.TimeoutMS>
@@ -1916,7 +1916,7 @@
                                                                               </ui:CursorPosition>
                                                                             </ui:Click.CursorPosition>
                                                                             <ui:Click.Target>
-                                                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="8151c68912ab3659ec35c52dd1b7b5c9" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='4' parentid='root' tag='path' /&gt;">
+                                                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="594d01d2-cdf9-4df6-bab0-8d3782a0bc00" InformativeScreenshot="8151c68912ab3659ec35c52dd1b7b5c9" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg&amp;gt;g&amp;gt;path' idx='4' parentid='root' tag='path' /&gt;">
                                                                                 <ui:Target.TimeoutMS>
                                                                                   <InArgument x:TypeArguments="x:Int32" />
                                                                                 </ui:Target.TimeoutMS>
@@ -1970,7 +1970,7 @@
                                           </sap:WorkflowViewStateService.ViewState>
                                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_168">
                                             <ui:GetValue.Target>
-                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="3ee1a22e46f32bb1e95ef24a8b4eedb4" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' parentid='root' tag='SPAN' /&gt;">
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="3ee1a22e46f32bb1e95ef24a8b4eedb4" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' parentid='root' tag='SPAN' /&gt;">
                                                 <ui:Target.TimeoutMS>
                                                   <InArgument x:TypeArguments="x:Int32" />
                                                 </ui:Target.TimeoutMS>
@@ -2048,7 +2048,7 @@
                                           <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_155" />
                                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_191">
                                             <ui:GetValue.Target>
-                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="17e76699f7c0cdd6cf7f2911f56ff7c3" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="17e76699f7c0cdd6cf7f2911f56ff7c3" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                                 <ui:Target.TimeoutMS>
                                                   <InArgument x:TypeArguments="x:Int32" />
                                                 </ui:Target.TimeoutMS>
@@ -2166,7 +2166,7 @@
                                                             <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="991,25" sap2010:WorkflowViewState.IdRef="Delay_120" />
                                                             <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="991,107" sap2010:WorkflowViewState.IdRef="GetValue_184">
                                                               <ui:GetValue.Target>
-                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                                                   <ui:Target.TimeoutMS>
                                                                     <InArgument x:TypeArguments="x:Int32" />
                                                                   </ui:Target.TimeoutMS>
@@ -2226,7 +2226,7 @@
                                                                         </ui:CursorPosition>
                                                                       </ui:Click.CursorPosition>
                                                                       <ui:Click.Target>
-                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f5066ec2-0c5f-4a49-803f-bc7f3e327550" InformativeScreenshot="461cba77a49d0954f078f6ff947bbdf7" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f5066ec2-0c5f-4a49-803f-bc7f3e327550" InformativeScreenshot="461cba77a49d0954f078f6ff947bbdf7" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                                                           <ui:Target.TimeoutMS>
                                                                             <InArgument x:TypeArguments="x:Int32" />
                                                                           </ui:Target.TimeoutMS>
@@ -2253,7 +2253,7 @@
                                                         <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_156" />
                                                         <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_192">
                                                           <ui:GetValue.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="17e76699f7c0cdd6cf7f2911f56ff7c3" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ef03b39-33aa-4d76-9053-7d1ba4b5c678" InformativeScreenshot="17e76699f7c0cdd6cf7f2911f56ff7c3" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -2331,7 +2331,7 @@
                             </ui:CommentOut>
                             <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="5653,107" sap2010:WorkflowViewState.IdRef="GetValue_79">
                               <ui:GetValue.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="156fb99a-9e8b-461e-a98e-8e294ae37a55" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="156fb99a-9e8b-461e-a98e-8e294ae37a55" InformativeScreenshot="96620d9a9457fd311c6fa86d3edf241d" Selector="&lt;html app='chrome.exe' title='Casino' /&gt;&lt;webctrl omit:src='https://evoad.df888evo.com/frontend/evo/r2/#provider=evolution&amp;amp;v*' tag='IFRAME' /&gt;&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' parentid='root' tag='SPAN' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -2350,7 +2350,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:GetValue>
-                            <Assign sap:VirtualizedContainerService.HintSize="5653,82" sap2010:WorkflowViewState.IdRef="Assign_22">
+                            <Assign sap:VirtualizedContainerService.HintSize="5653,81" sap2010:WorkflowViewState.IdRef="Assign_22">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[iii]</OutArgument>
                               </Assign.To>
